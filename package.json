@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "ladle:serve": "ladle serve",
-    "ladle:build": "ladle build",
+    "ladle:build": "ladle build --viteConfig vite.ladle.config.ts",
     "build": "vite build && tsc -b",
     "lint": "eslint .",
     "fmt": "prettier --write src/**/*.{js,jsx,ts,tsx,json,html}"
