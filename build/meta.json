@@ -1,0 +1,20 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "box-shadow-button--variant": {
+      "name": "Variant",
+      "levels": [
+        "Box shadow button"
+      ],
+      "locStart": 1,
+      "locEnd": 1,
+      "filePath": "src/components/BoxShadowButton/BoxShadowButton.stories.tsx",
+      "namedExport": "Variant",
+      "meta": {}
+    }
+  }
+}

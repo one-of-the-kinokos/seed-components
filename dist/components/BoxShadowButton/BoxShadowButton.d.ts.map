@@ -1,0 +1,1 @@
+{"version":3,"file":"BoxShadowButton.d.ts","sourceRoot":"","sources":["../../../src/components/BoxShadowButton/BoxShadowButton.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,OAAO,CAAC;AACvC,OAAO,EAAE,MAAM,EAAE,MAAM,cAAc,CAAC;AAGtC,MAAM,MAAM,oBAAoB,GAAG,cAAc,CAAC,OAAO,MAAM,CAAC,CAAC;AAEjE,iBAAS,eAAe,CAAC,KAAK,EAAE,oBAAoB,2CAWnD;AAED,OAAO,EAAE,eAAe,EAAE,CAAC"}
