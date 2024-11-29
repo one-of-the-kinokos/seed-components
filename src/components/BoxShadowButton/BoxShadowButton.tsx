@@ -9,7 +9,7 @@ function BoxShadowButton(props: BoxShadowButtonProps) {
     <>
       {/* 通常時はボタン下部に影が表示され、押されたときに消える。 */}
       <Button
-        boxShadow={"0px 2px 0px rgba(0,250,0,0.3);"}
+        boxShadow={"0px 2px 0px rgba(0,200,250,0.3);"}
         _active={{ boxShadow: "0px 3px 0px rgba(0,0,0,0);" }}
         {...props}
       />
