@@ -11,7 +11,6 @@ function BoxShadowButton(props: BoxShadowButtonProps) {
       <Button
 
         boxShadow={"0px 2px 0px rgba(0,200,0,0.98);"}
-
         _active={{ boxShadow: "0px 3px 0px rgba(0,0,0,0);" }}
         {...props}
       />
