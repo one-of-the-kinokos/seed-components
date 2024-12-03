@@ -1,1 +1,1 @@
-{"version":3,"file":"variant.d.ts","sourceRoot":"","sources":["../../../../src/components/BoxShadowButton/stories/variant.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,cAAc,CAAC;AAO1C,QAAA,MAAM,OAAO,EAAE,KAqBd,CAAC;AAgCF,OAAO,EAAE,OAAO,EAAE,CAAC"}
+{"version":3,"file":"variant.d.ts","sourceRoot":"","sources":["../../../../src/components/BoxShadowButton/stories/variant.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,cAAc,CAAC;AAQ1C,QAAA,MAAM,OAAO,EAAE,KAqBd,CAAC;AAuBF,OAAO,EAAE,OAAO,EAAE,CAAC"}
