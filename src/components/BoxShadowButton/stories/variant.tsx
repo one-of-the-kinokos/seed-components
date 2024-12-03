@@ -1,8 +1,9 @@
 import type { Story } from "@ladle/react";
 import { ComponentProps } from "react";
 import { BoxShadowButton } from "../BoxShadowButton";
-import { Box, Flex } from "@chakra-ui/react";
-import Markdown from "react-markdown";
+import { Flex } from "@chakra-ui/react";
+import { CatalogueLayout } from "@/lib/CatalogueLayout";
+import variantMd from "../md/variant.md?raw";
 
 type variantsType = Pick<ComponentProps<typeof BoxShadowButton>, "variant">;
 const Variant: Story = () => {
@@ -28,31 +29,22 @@ const Variant: Story = () => {
   );
 };
 
-const description = `
-# BoxShadowButton
-
-Chakra UIのButtonコンポーネントに影をつけたもの。  
-押すと影が消える。  
-variantの値を変えることで見た目を変更できる。
-`;
-
 Variant.decorators = [
   (Component) => {
     return (
       <>
-        <Flex gapX={"5vw"}>
-          <Box width={"full"} className="markdown-body">
-            <Markdown>{description}</Markdown>
-          </Box>
-          <Flex
-            width={"full"}
-            direction={"column"}
-            alignItems={"center"}
-            gap={"30px"}
-          >
-            <Component />
-          </Flex>
-        </Flex>
+        <CatalogueLayout mdstring={variantMd}>
+          <>
+            <Flex
+              width={"full"}
+              direction={"column"}
+              alignItems={"center"}
+              gap={"30px"}
+            >
+              <Component />
+            </Flex>
+          </>
+        </CatalogueLayout>
       </>
     );
   },
